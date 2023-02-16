@@ -59,7 +59,7 @@ function draw() {
   
   
   
-  if(gameState === PLAY){
+  if(gameState ===  ){
     ground.velocityX = -4;
     score = score + Math.round(frameCount/60);
       
@@ -87,7 +87,7 @@ console.log(gameState)
         gameState = END;
     }
   }
-   else if (gameState === END) {
+   else if (gameState ===  ) {
       ground.velocityX = 0;
      
      obstaclesGroup.setVelocityXEach(0);
